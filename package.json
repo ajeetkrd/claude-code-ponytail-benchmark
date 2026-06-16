@@ -1,0 +1,12 @@
+{
+  "name": "ponytail-benchmark",
+  "version": "1.0.0",
+  "description": "Benchmark the ponytail Claude Code plugin claims",
+  "type": "module",
+  "scripts": {
+    "benchmark": "node benchmark.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/bedrock-sdk": "^0.30.2"
+  }
+}
